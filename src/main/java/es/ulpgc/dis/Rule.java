@@ -39,7 +39,7 @@ public class Rule {
     }
 
     private void actAllActions() {
-        
+        for (Action action : actions)
+            action.actuate();
     }
-
 }
