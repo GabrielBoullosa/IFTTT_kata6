@@ -16,4 +16,30 @@ public class Rule {
         this.name = name;
         this.description = description;
     }
+
+    public void addCondition(Condition condition){
+        conditions.add(condition);
+    }
+    public void addAction(Action action){
+        actions.add(action);
+    }
+
+    public void execute(){
+        if (isTrueAllConditions())
+            actAllActions();
+    }
+
+    private boolean isTrueAllConditions() {
+        boolean result = true;
+        for (Condition condition : conditions) {
+            if (!condition.evaluate())
+                result = false;
+        }
+        return result;
+    }
+
+    private void actAllActions() {
+        
+    }
+
 }
