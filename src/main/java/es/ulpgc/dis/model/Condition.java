@@ -1,4 +1,7 @@
-package es.ulpgc.dis;
+package es.ulpgc.dis.model;
+
+import es.ulpgc.dis.RelationalOperator;
+import es.ulpgc.dis.Sensor;
 
 public class Condition {
     private final Sensor sensor;

@@ -1,4 +1,6 @@
-package es.ulpgc.dis;
+package es.ulpgc.dis.model;
+
+import es.ulpgc.dis.Actuator;
 
 public class Action {
     private Actuator actuator;
