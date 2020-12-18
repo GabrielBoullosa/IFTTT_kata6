@@ -14,6 +14,6 @@ public class Condition {
     }
 
     public boolean evaluate() {
-        return false;
+        return relationalOperator.evaluate(threshold, sensor.getValue());
     }
 }
