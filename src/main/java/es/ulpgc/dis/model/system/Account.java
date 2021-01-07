@@ -1,4 +1,4 @@
-package es.ulpgc.dis.model;
+package es.ulpgc.dis.model.system;
 
 import es.ulpgc.dis.mail.Mail;
 

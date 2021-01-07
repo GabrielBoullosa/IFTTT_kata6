@@ -1,4 +1,4 @@
-package es.ulpgc.dis.model;
+package es.ulpgc.dis.model.system;
 
 import java.util.ArrayList;
 import java.util.List;
