@@ -1,5 +1,6 @@
 package es.ulpgc.dis.model;
 
+import es.ulpgc.dis.logger.LoggerFactory;
 import es.ulpgc.dis.model.operator.IntegerRelationalOperator;
 import es.ulpgc.dis.model.operator.Operator;
 import es.ulpgc.dis.model.environment.Actuator;
@@ -16,9 +17,10 @@ public class App {
 
         Sensor randomClock = new RandomClock();
         Actuator alarm = new Alarm("despertar", 5);
+        Sensor loggerRandomClock = LoggerFactory.getLoggerRandomClock(randomClock);
 
         Rule rule0 = new Rule(0, "regla cero", "encargada de activar la alarma");
-        Condition conditionEqual = new Condition(randomClock,
+        Condition conditionEqual = new Condition(loggerRandomClock,
                                                 new Integer(46000),
                                                 new IntegerRelationalOperator(Operator.EQUALS));
 
