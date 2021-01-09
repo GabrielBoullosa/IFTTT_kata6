@@ -1,6 +1,6 @@
 package es.ulpgc.dis.model.system;
 
-import es.ulpgc.dis.mail.Mail;
+import es.ulpgc.dis.model.mail.Mail;
 
 import java.util.ArrayList;
 import java.util.List;

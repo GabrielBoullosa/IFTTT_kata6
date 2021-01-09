@@ -1,4 +1,4 @@
-package es.ulpgc.dis.mail;
+package es.ulpgc.dis.model.mail;
 
 public class GmailDomainMail implements Mail {
     private final String name;

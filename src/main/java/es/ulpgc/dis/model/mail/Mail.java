@@ -1,4 +1,4 @@
-package es.ulpgc.dis.mail;
+package es.ulpgc.dis.model.mail;
 
 public interface Mail {
     String mail();

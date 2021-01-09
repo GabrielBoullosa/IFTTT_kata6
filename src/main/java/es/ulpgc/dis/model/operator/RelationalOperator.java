@@ -1,4 +1,4 @@
-package es.ulpgc.dis;
+package es.ulpgc.dis.model.operator;
 
 public abstract class RelationalOperator {
     private Operator operator;

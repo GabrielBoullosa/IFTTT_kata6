@@ -1,6 +1,9 @@
-package es.ulpgc.dis;
+package es.ulpgc.dis.model.operator;
 
-public class IntegerRelationalOperator extends RelationalOperator{
+import es.ulpgc.dis.model.operator.Operator;
+import es.ulpgc.dis.model.operator.RelationalOperator;
+
+public class IntegerRelationalOperator extends RelationalOperator {
 
     public IntegerRelationalOperator(Operator operator) {
         super(operator);

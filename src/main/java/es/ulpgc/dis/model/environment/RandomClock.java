@@ -6,7 +6,7 @@ public class RandomClock implements Sensor{
 
     private final Random random;
 
-    public RandomClock(Random random) {
+    public RandomClock() {
         this.random = new Random(System.currentTimeMillis());
     }
 

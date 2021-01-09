@@ -1,6 +1,6 @@
 package es.ulpgc.dis.model.system;
 
-import es.ulpgc.dis.RelationalOperator;
+import es.ulpgc.dis.model.operator.RelationalOperator;
 import es.ulpgc.dis.model.environment.Sensor;
 
 public class Condition {
